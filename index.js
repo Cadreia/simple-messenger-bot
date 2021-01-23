@@ -1,9 +1,9 @@
- const express = require('express')
+const express = require('express')
 const request = require('request')
 const bodyParser = require('body-parser')
 
 const app = express()
-app.use(bodyParser.urlencoded( { extended: false}))
+app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.listen((process.env.PORT || 3000))
 
