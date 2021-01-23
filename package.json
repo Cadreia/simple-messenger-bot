@@ -1,0 +1,30 @@
+{
+  "name": "simple-messenger-bot",
+  "version": "1.0.0",
+  "description": "a simple bot built for the messenger workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cadreia/simple-messenger-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "messenger",
+    "facebook",
+    "workshop"
+  ],
+  "author": "Audrey Ndum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cadreia/simple-messenger-bot/issues"
+  },
+  "homepage": "https://github.com/Cadreia/simple-messenger-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
